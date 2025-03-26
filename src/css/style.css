@@ -49,7 +49,7 @@
 
 body {
     font-family: "Lato", sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     color: var(--text-color);
     scroll-behavior: smooth;
     background-image: url(../assets/imgs/image-be5u1lxc.png);
@@ -59,7 +59,7 @@ body {
 }
 
 .parent {
-  padding: 1em;
+  padding: 0.7rem;
   width: 90%;
   position: absolute;
   background: var(--body-bg);
@@ -73,4 +73,22 @@ body {
     width: 100%;
     border: 1px solid var(--border-color);
     background: var(--body-bg);
+}
+
+.topbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 0 0.2rem 0.7rem 1rem;
+}
+
+.topbar__text {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--light-color)
 }
