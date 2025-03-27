@@ -82,7 +82,14 @@ body {
     align-content: stretch;
     justify-content: space-between;
     background-color: var(--primary-color);
-    padding: 0 0.2rem 0.7rem 1rem;
+    padding: 0.1rem;
+}
+
+.topbar__icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .topbar__text {
@@ -90,5 +97,21 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
-    color: var(--light-color)
+    color: var(--light-color);
+    padding: 0 0 0.5rem 0.5rem;
+}
+ .topbar__icon {
+    color: var(--light-color);
+    cursor: pointer;
+    font-family: "Bodoni Moda", serif;
+    padding-right: 0.5rem;
+}
+
+.topbar__icon-text {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--light-color);
+    padding-right: 0.5rem;
 }
