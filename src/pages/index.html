@@ -13,7 +13,8 @@
         <link rel = "stylesheet" href = "../css/normalize.css">
 
         <!-- custom css link -->
-         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/index.css">
 
         <!-- google font link -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,8 +37,62 @@
                         <span class="topbar__icon-text"><a href="art-status.html">ART STATUS</a></span>
                     </div>
                 </div>
+                <div id="bannerimagehome"></div>
+                <header>
+                    <nav class="navbar">
+                        <ul class="sidebar">
+                            <li onclick=hideSidebar()><img class="navbar__hamburger_close" src="../assets/imgs/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="site-info.html" class="nav-link">Site Info</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Main OCs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link">Journal</a>
+                            </li>
+                        </ul>
+                        <ul class="nav-menu">
+                            <li class="nav-item hideOnMobile">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item hideOnMobile">
+                                <a href="site-info.html" class="nav-link">Site Info</a>
+                            </li>
+                            <li class="nav-item hideOnMobile">
+                                <a href="#" class="nav-link">Main OCs</a>
+                            </li>
+                            <li class="nav-item hideOnMobile">
+                                <a href="blog.html" class="nav-link">Journal</a>
+                            </li>
+                            <li onclick=showSidebar()><img class="navbar__hamburger" src="../assets/imgs/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section class="about">
+                    <div class="about_img"></div>
+                    <div class="about_bio">
+                        <p class="bio__info">
+                            ✨ <u>OC • OC x CANON digital artist</u> • strongly into shaman king
+                            🌸 <span style="font-style: italic;">ESP / ENG • typo queen.</span>
+                            <br>
+                            I work as a full time web designer while also <span>enjoying OCs</span>, anime/manga and games in my free time.
+                        </p>
+                    </div>
+                    <div class="about_text">
+                        <p class="text__info">
+                            I made this site because I wanted a small place to call <b>"my own"</b> (somehow). Also, to practice again my old forgotten coding knowledge and try to keep learning.
+                            The web design you'll see here is <u>intentionally opposite</u> to the popular 'minimalistic user-friendly.'
+                        </p>
+                    </div>
+                </section>
             </div>
         </div>
+
+        <script src="../assets/js/script.js"></script>
     </body>
 
 </html>

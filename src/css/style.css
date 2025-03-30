@@ -44,7 +44,7 @@
     --lightess-dark: #312f34;
     --light-color: #f1f1f1;
     --text-color: #a08d94;
-    --border-color: #a08d94;
+    --border-color: #ea9a97;
   }
 
 body {
@@ -61,10 +61,13 @@ body {
 .parent {
   padding: 0.7rem;
   width: 90%;
-  position: absolute;
+  max-width: 1000px;
+  margin: 1rem auto;
+  position: relative;
   background: var(--body-bg);
   border: 2px dashed var(--border-color);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -75,43 +78,9 @@ body {
     background: var(--body-bg);
 }
 
-.topbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: stretch;
-    justify-content: space-between;
-    background-color: var(--primary-color);
-    padding: 0.1rem;
-}
-
-.topbar__icon-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.topbar__text {
-    font-family: "Bodoni Moda", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--light-color);
-    padding: 0 0 0.5rem 0.5rem;
-}
- .topbar__icon {
-    color: var(--light-color);
-    cursor: pointer;
-    font-family: "Bodoni Moda", serif;
-    padding-right: 0.5rem;
-}
-
-.topbar__icon-text {
-    font-family: "Bodoni Moda", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--light-color);
-    padding-right: 0.5rem;
+/* Responsive  */
+@media (max-width: 770px) {
+   .parent {
+    
+   }
 }
