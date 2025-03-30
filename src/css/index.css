@@ -83,9 +83,8 @@ header .navbar {
 .sidebar {
     position: fixed;
     padding: 1rem;
-    height: 50vh;
     width: 60%;
-    height: 30%;
+    height: 60%;
     z-index: 999;
     background-color: #ea9a9743;
     backdrop-filter: blur(10px);
