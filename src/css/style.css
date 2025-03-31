@@ -48,12 +48,13 @@
   }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Lato", sans-serif;
     font-size: 1rem;
     color: var(--text-color);
     scroll-behavior: smooth;
     background-image: url(../assets/imgs/image-be5u1lxc.png);
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -76,4 +77,23 @@ body {
     width: 100%;
     border: 1px solid var(--border-color);
     background: var(--body-bg);
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: var(--body-bg);
+    font-size: 11px;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 101%;
+}
+
+/* Responsive  */
+@media (max-width: 800px) {
+  footer {
+    width: 104%;
+  }
 }
