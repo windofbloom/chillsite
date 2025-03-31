@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandrite</title>
+
+     <!-- favicon-->
+     <link rel="shortcut icon" href="../assets/imgs/flor.png" type="image/Flower">
+
+     <!-- normalize css -->
+     <link rel = "stylesheet" href = "../css/normalize.css">
+
+     <!-- custom css link -->
+     <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="../css/tsukiko.css">
+
+      <!-- animate css -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+     <!-- google font link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="animate__animated animate__fadeIn">
+
+    <div class="parent">
+        <div class="child">
+
+            <header>
+                <!--Topbar-->
+                <div class="topbar">
+                    <h1 class="topbar__text">Bloom's chill site</h1>
+                    <div class="topbar__icon-container">
+                        <img src="../assets/imgs/mdi_flower.svg" alt="Flower">
+                        <span class="topbar__icon-text"><a href="art-status.html">ART STATUS</a></span>
+                    </div>
+                </div>
+
+                <!--navigation-->
+                <nav class="navbar">
+                    <ul class="sidebar">
+                        <li onclick=animatedSidebarExit()><img class="navbar__hamburger_close" src="../assets/imgs/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="site-info.html" class="nav-link">Site Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Main OCs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link">Journal</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-menu">
+                        <li class="nav-item hideOnMobile">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item hideOnMobile">
+                            <a href="site-info.html" class="nav-link">Site Info</a>
+                        </li>
+                        <li class="nav-item hideOnMobile">
+                            <a href="#" class="nav-link">Main OCs</a>
+                        </li>
+                        <li class="nav-item hideOnMobile">
+                            <a href="blog.html" class="nav-link">Journal</a>
+                        </li>
+                        <li onclick=animatedSidebarEntrace()><img class="navbar__hamburger" src="../assets/imgs/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></li>
+                    </ul>
+                </nav>
+
+                <!--banner img-->
+                <div id="bannertsukiko"></div>
+            </header>
+
+        </div>
+    </div>
+    
+    <footer>
+        MADE WITH LOVE BY WINDOFBLOOM | <a href="https://github.com/windofbloom" target="_blank">GITHUB</a> 
+        | <a href="site-info.html">SITEINFO</a> | <a href="art-status.html">ART STATUS</a>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+
+</body>
+</html>
