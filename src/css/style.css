@@ -77,10 +77,3 @@ body {
     border: 1px solid var(--border-color);
     background: var(--body-bg);
 }
-
-/* Responsive  */
-@media (max-width: 770px) {
-   .parent {
-    
-   }
-}
