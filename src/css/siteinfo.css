@@ -121,7 +121,7 @@ header .navbar {
 .site_img {
     width: 175%;
     height: 405px;
-    background-image: url(../assets/imgs/shamanoc5-1-shielded-robust.png);
+    background-image: url(../assets/imgs/fairy_angel.jpg);
     background-position: center;
     border:1px solid var(--border-color);
     background-size: cover;
@@ -137,6 +137,83 @@ header .navbar {
     font-family: "Bodoni Moda", serif;
     font-size: 1.4rem;
     font-weight: 800;
+}
+
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #000;
+}
+
+.credits_text {
+    padding: 1rem;
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.credits__title {
+    color: var(--accent);
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.credits__bold {
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+
+.credits_img {
+    width: 79%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.content_description, .content_tools, .content_programs {
+    flex: 1;
+}
+
+.content_programs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.content__text {
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.description__title {
+    color: var(--primary-color);
+    font-family: "Bodoni Moda", serif;
+    font-weight: 800;
+}
+
+.content_programs__one, .content_programs__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__img {
+    width: 60%;
 }
 
 /* Responsive  */
@@ -161,9 +238,30 @@ header .navbar {
     }
 
     .site_img {
-        height: 170px;
+        height: 270px;
     }
-   
+
+    .content {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+  
+    .credits {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 0.1rem;
+    }
+
+    .credits_text {
+        margin-left: 0;
+    }
+
+    .credits_img {
+        width: 70%;
+        height: auto;
+        margin-left: 13%;
+    }
 }
 
 @media(max-width: 400px) {
