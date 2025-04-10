@@ -108,6 +108,29 @@ header .navbar {
     display: none;
 }
 
+.nav-item {
+    position: relative;
+}
+
+.dropdown_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    display: none;
+    z-index: 9;
+}
+
+.nav-item:hover .dropdown_menu {
+    display: block;
+}
+
+.dropdown_menu .nav-item {
+    padding: 0.5rem;
+}
+
 #bannertsukiko {
     width: 100%;
     background-image: url(../assets/imgs/ValentineDay2025-shielded-robust.png);
@@ -125,6 +148,12 @@ header .navbar {
 
     .hideOnMobile {
         display: none;
+    }
+
+    .dropdown_menu {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
     }
 }
 
