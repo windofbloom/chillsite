@@ -39,6 +39,15 @@
     padding-right: 0.5rem;
 }
 
+#bannerimagehome {
+    width: 100%;
+    background-image: url(../assets/imgs/ValentineDay2025-shielded-robust.png);
+    height: 15rem;
+    background-position: center;
+    border:1px solid var(--border-color);
+    background-size: cover;
+  }
+
 ul {
     list-style: none;
 }
@@ -130,6 +139,60 @@ header .navbar {
 .dropdown_menu .nav-item {
     padding: 0.5rem;
 }
+
+.main_blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);   
+}
+
+.blog__title_welcome {
+    color: var(--accent);
+    font-family: "Bodoni Moda", serif;
+    font-size: 2rem;
+}
+
+.blog__warning {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blog__body {
+    width: 70%;
+}
+
+.blog_sidebar {
+    width: 30%;
+}
+
+.blog__categories {
+    background: var(--primary-color);
+    padding: 0.2rem;
+}
+
+.categories {
+    display: flex;
+    gap: 1rem;
+    color: var(--dark-color);
+    font-family: "Bodoni Moda", serif;
+}
+
+.blog_sidebar {
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.sidebar__title {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
 
 /* Responsive  */
 @media (max-width: 800px) {
